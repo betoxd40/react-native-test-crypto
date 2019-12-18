@@ -7,19 +7,20 @@
     "postinstall": "jetify"
   },
   "dependencies": {
+    "browserify-sign": "^4.0.4",
+    "crypto-browserify": "^3.12.0",
     "expo": "~36.0.0",
+    "factom-harmony-integrate": "git+ssh://git@github.com/FactomProject/factom-harmony-integrate#v1.3.0-rc1",
+    "node-libs-browser": "^2.2.1",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "~0.61.4",
     "react-native-gesture-handler": "~1.5.0",
+    "react-native-randombytes": "^3.5.3",
     "react-native-reanimated": "~1.4.0",
     "react-native-screens": "~2.0.0-alpha.12",
     "react-native-unimodules": "~0.7.0",
-    "react-native-web": "~0.11.7",
-    "crypto-browserify": "^3.12.0",
-    "factom-harmony-integrate": "git+ssh://git@github.com/FactomProject/factom-harmony-integrate#v1.3.0-rc1",
-    "node-libs-browser": "^2.2.1",
-    "react-native-randombytes": "^3.5.3"
+    "react-native-web": "~0.11.7"
   },
   "devDependencies": {
     "@babel/core": "~7.6.0",
