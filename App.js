@@ -4,17 +4,17 @@ import { StyleSheet, Text, View } from "react-native";
 import FactomIntegrateSDK from "factom-harmony-integrate";
 
 const configure = {
-  baseUrl: "https://api.factom.com/v1",
+  baseUrl: "https://ephemeral.api.factom.com/v1",
   accessToken: {
-    appId: "XXXXX",
-    appKey: "XXXX"
+    appId: "4ae3600f",
+    appKey: "8b67a47eed2b7a17a50365c6fc73ec0d"
   }
 };
 
 const Integrate = new FactomIntegrateSDK(configure);
 
-// getIdentity();
-claimTest();
+identityTest();
+// claimTest();
 
 async function claimTest() {
   // Execute an Integrate SDK Method
@@ -47,9 +47,16 @@ async function claimTest() {
   console.log("Verify ClaimObj", claimObj);
 }
 
+async function chainTest() {}
+
 async function identityTest() {
   const identityObj = await Integrate.identities.create({
-    names: ["NotarySimulationxxxx", "Test Identityxxx"]
+    names: [
+      "Off-Blocks",
+      "Identity",
+      "4b72bfe67cb3d89ebcc72bf781835d22adf1695b185f1bf6bc91a5b51cce7328"
+    ],
+    keys: ["idpub2TWHFrWrJxVEmbeXnMRWeKBdFp7bEByosS1phV1bH7NS99zHF9"]
   });
   console.log(identityObj);
 }

@@ -43,4 +43,6 @@ target 'xsasdasd' do
 
   # Automatically detect installed unimodules
   use_unimodules!
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
 end

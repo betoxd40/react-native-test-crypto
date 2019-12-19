@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 18 11:25:32 ART 2019
+#Thu Dec 19 09:44:28 ART 2019
 64.base=/home/alberto/Documents/Yo/AwesomeProject2/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 64.baseType=DIRECTORY
 33.base=/home/alberto/Documents/Yo/AwesomeProject2/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

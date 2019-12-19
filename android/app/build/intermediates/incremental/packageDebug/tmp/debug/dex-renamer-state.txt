@@ -1,4 +1,4 @@
-#Wed Dec 18 11:25:31 ART 2019
+#Thu Dec 19 09:44:28 ART 2019
 base.1=/home/alberto/Documents/Yo/AwesomeProject2/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes.dex
 base.0=/home/alberto/Documents/Yo/AwesomeProject2/android/app/build/intermediates/transforms/dexMerger/debug/1

@@ -1,4 +1,5 @@
 // Inject node globals into React Native global scope.
+
 global.Buffer = require("buffer").Buffer;
 global.process = require("process");
 
@@ -41,10 +42,8 @@ crypto.randomBytes = function(size, cb) {
 crypto.getRandomValues = crypto.getRandomValues || getRandomValues;
 
 function getRandomValues(arr) {
-  // console.warn('WARNING: generating insecure psuedorandom number')
   for (var i = 0; i < arr.length; i++) {
     arr[i] = (Math.random() * 256) | 0;
   }
-
   return arr;
 }

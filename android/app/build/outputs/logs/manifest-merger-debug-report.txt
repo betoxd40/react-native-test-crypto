@@ -4,6 +4,7 @@ ADDED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/Andro
 INJECTED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml:1:1-48:12
 INJECTED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml:1:1-48:12
 INJECTED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-fs] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-screens] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -180,6 +181,8 @@ ADDED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/Andro
 		ADDED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml:23:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [:react-native-fs] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
 MERGED from [:expo-file-system] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
 MERGED from [:expo-file-system] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
 	android:name
@@ -262,6 +265,8 @@ uses-sdk
 INJECTED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/alberto/Documents/Yo/AwesomeProject2/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-fs] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/alberto/Documents/Yo/AwesomeProject2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
